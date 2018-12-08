@@ -1,0 +1,128 @@
+body{
+  font-family: $main_font;
+}
+
+.logo-home{
+  width: 80px;
+  border-radius: 50%
+}
+
+.main-button{
+  background-color: blue;
+  color: white;
+  padding: 10px 45px;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: 0.3s all ease;
+  border: 2px solid blue;
+  font-weight: 300;
+
+
+  &:hover{
+    background-color: transparent;
+    border: 2px solid blue;
+    color: black;
+
+  }
+
+}
+
+.main-button2{
+  background-color: transparent;
+  color: black;
+  border: 1px solid blue;
+  padding: 12px 45px;
+  border-radius: 100px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.what-is-jube {
+  margin-top: 75px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.feature-section{
+  display: flex;
+
+}
+
+.feature-icon{
+  margin-left: 0px;
+
+}
+
+
+.what-is-jube-info{
+  margin-top: 75px;
+  display: flex;
+
+}
+
+  .feature-title {
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+  }
+
+  .feature-title {
+  color: blue;
+  font-size: 20px
+
+  }
+
+  .feature-text{
+  font-weight: 200;
+  padding: 5px 0px;
+
+  }
+
+.feature-icon {
+  color: blue;
+  font-size: 25px
+
+
+}
+
+.built-for-renters-headline {
+  font-weight: 200;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+
+.built-for-renters-subheader {
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+.built-for-renters-pictures {
+  width: 200px;
+  flex: 0 0 auto;
+}
+
+.built-for-renters-big-text {
+  font-weight: 400;
+  font-size: 20px;
+
+}
+
+.built-for-renters-small-text {
+  font-weight: 200;
+  font-size: 15px;
+
+}
+
+.built-for-renters-section1 {
+  display: flex;
+  align-items: center;
+}
+
