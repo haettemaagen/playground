@@ -4,4 +4,6 @@ class PagesController < ApplicationController
 
   def bootstrap
   end
+  def dashboard
+  end
 end
