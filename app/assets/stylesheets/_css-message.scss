@@ -1,0 +1,120 @@
+.message-box {
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.message-owner {
+
+  padding-right: 15px;
+  flex-grow: 1;
+  padding-left: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+
+.owner-bio{
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.message-text {
+  margin-bottom: 0px;
+  font-weight: 200;
+  font-size: 14px;
+
+}
+
+.status-owner {
+  padding-right: 30px;
+
+}
+
+.status-date {
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: #228AE6;
+
+
+}
+
+.status-year {
+  font-size: 12px;
+  margin-top: 0px;
+  font-weight: 200;
+}
+
+.avatar {
+  border-color: gray;
+  border-width: 4px;
+
+
+}
+
+.avatar-pic{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: solid gray 1px;
+  box-shadow: 1px 1px 2px rgba (0,0,0,0.5)
+
+
+}
+
+.owner-box {
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  text-align: center;
+  max-width: 200px;
+  padding-left: 10px;
+  padding-top: 18px;
+  margin-top: 10px;
+}
+
+.owner-name {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 8px;
+  padding-right: 4px;
+
+}
+
+.owner-some {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  color: #228AE6;
+
+}
+
+
+
+
+.owner-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-thumb {
+  color: #228AE6
+
+}
+
+.owner-title {
+  font-weight: 200;
+  font-size: 13px;
+
+
+}
